@@ -6,5 +6,5 @@ export const routes: Routes = [
     { path: 'cadastro', component: CadastroComponent },
     { path: 'consulta', component: ConsultaComponent },
     { path: '', redirectTo: 'cadastro', pathMatch: 'full' },
-    { path: '**', redirectTo: 'cadastro' } // Adicione esta linha para capturar rotas inválidas
+    { path: '**', redirectTo: 'cadastro' } 
   ];

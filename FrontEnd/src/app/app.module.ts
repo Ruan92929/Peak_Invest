@@ -4,10 +4,10 @@ import { AppComponent } from './app.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { ConsultaComponent } from './pages/consulta/consulta.component';
 import { HttpClientModule } from '@angular/common/http';
-import { FormsModule } from '@angular/forms'; // Já está importado
+import { FormsModule } from '@angular/forms'; 
 import { RouterModule } from '@angular/router';
 import { routes } from './app.routes';
-import { CommonModule } from '@angular/common'; // Adicione esta linha
+import { CommonModule } from '@angular/common'; 
 
 @NgModule({
     declarations: [
@@ -18,8 +18,8 @@ import { CommonModule } from '@angular/common'; // Adicione esta linha
     imports: [
         BrowserModule,
         HttpClientModule,
-        FormsModule, // Para ngModel
-        CommonModule, // Para *ngIf e currency pipe
+        FormsModule, 
+        CommonModule, 
         RouterModule.forRoot(routes, { bindToComponentInputs: true })
     ],
     providers: [],

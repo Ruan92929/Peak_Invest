@@ -10,7 +10,7 @@ export class ApiService {
 
   constructor(private http: HttpClient) {}
 
-  cadastrar(dados: { parcelas: number; valor: number }): Observable<any> {
+  cadastrar(dados: { parcelas: number; valorParcela: number }): Observable<any> {
     return this.http.post(`${this.baseUrl}/CalculationFunction`, dados);
   }
 

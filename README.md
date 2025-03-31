@@ -1,4 +1,3 @@
-```markdown
 # PeakInvest
 
 Este repositório contém duas aplicações: um backend desenvolvido com Azure Functions em .NET e um frontend desenvolvido com Angular.

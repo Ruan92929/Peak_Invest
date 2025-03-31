@@ -1,0 +1,6 @@
+<div style="padding: 20px;">
+  <button (click)="navigateTo('/cadastro')" [class.active]="isActive('/cadastro')">Cadastro</button>
+  <button (click)="navigateTo('/consulta')" [class.active]="isActive('/consulta')">Consulta</button>
+  
+  <router-outlet></router-outlet>
+</div>

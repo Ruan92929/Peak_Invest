@@ -13,29 +13,38 @@ Este repositório contém duas aplicações: um backend desenvolvido com Azure F
 ## Como rodar o Frontend (Angular)
 
 1. Navegue até a pasta do frontend:
+
    ```sh
    cd PeakInvestFrontend
    ```
+
 2. Instale as dependências:
+
    ```sh
    npm install
    ```
+
 3. Inicie o servidor de desenvolvimento:
+
    ```sh
    ng serve
    ```
+
 4. Acesse a aplicação no navegador: `http://localhost:4200/`
 
 ## Como rodar o Backend (Azure Functions)
 
 1. Navegue até a pasta do backend:
+
    ```sh
    cd PeakInvestBackend
    ```
+
 2. Inicie a Azure Function localmente:
+
    ```sh
    func start
    ```
-3. As funções estarão disponíveis em `http://localhost:7071/`
 
+3. As funções estarão disponíveis em `http://localhost:7071/`
 
